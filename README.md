@@ -1,0 +1,1 @@
+# Makes a request to the news api and sends links to the stories via email 
