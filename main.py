@@ -6,8 +6,10 @@ import requests
 from email_util import send_email
 
 API_KEY = os.getenv('NEWS_API')
+topic = "politics"
+
 news_url = ("https://newsapi.org/v2/everything?"
-            "q=tesla&"
+            f"q={topic}&"
             "language=en&"
             "from=2025-05-17&"
             "sortBy=publishedAt&"
